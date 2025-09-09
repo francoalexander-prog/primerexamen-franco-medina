@@ -1,0 +1,36 @@
+:root{
+    --bg: #ffffff;
+    --text: #111;
+    --accent: #c62828;
+    --blue: #1a4db7;
+    --focus: 3px;
+    font-family: "Montserrat", sans-serif;
+  }
+:focus{
+    outline: none;
+  }
+  :focus-visible{
+    outline: solid var(--text) var(--focus);
+    outline-offset: 3px;
+    border-radius:4px;
+  }
+
+.skip-link{
+    position: absolute;
+    left: -999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+  .skip-link:focus,
+  .skip-link:active{
+    left: 1rem;
+    top: 1rem;
+    width: auto;
+    height: auto;
+    padding: 0.5rem 1rem;
+    background:#000;
+    color:#fff;
+    z-index:9999;
+  }
