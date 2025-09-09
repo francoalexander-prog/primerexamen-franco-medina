@@ -7,3 +7,10 @@
 - Imágenes con `alt` descriptivos que comunican la función y apariencia del producto.
 - Uso mínimo de `aria-*` y sólo donde aporta (ej. `aria-label` en navegación y `aria-expanded` en el botón del menú).
 - Validé contraste de colores para textos y botones 
+
+## SEO
+- `<title>` único y descriptivo: "MANACO — Calzado que impulsa tu paso".
+- `<meta name="description">` con resumen (150–160 caracteres aprox.) para búsquedas.
+- Etiquetas Open Graph mínimas (`og:title`, `og:description`) para compartir en redes.
+- Estructura semántica con un único `h1`, `h2` para secciones y `h3` para nombres de producto, coherente con SEO on-page.
+- Imágenes optimizadas con `width`/`height` y atributos `alt` .
